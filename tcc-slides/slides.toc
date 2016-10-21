@@ -1,0 +1,11 @@
+\beamer@endinputifotherversion {3.24pt}
+\select@language {english}
+\beamer@sectionintoc {1}{Introdu\IeC {\c c}\IeC {\~a}o}{3}{0}{1}
+\beamer@sectionintoc {2}{O Algoritmo PageRank}{4}{0}{2}
+\beamer@sectionintoc {3}{Defini\IeC {\c c}\IeC {\~a}o dos Modelos}{7}{0}{3}
+\beamer@subsectionintoc {3}{1}{A Matriz Hiperlink}{7}{0}{3}
+\beamer@subsectionintoc {3}{2}{O Power Method}{9}{0}{3}
+\beamer@subsectionintoc {3}{3}{Teleportation Model}{11}{0}{3}
+\beamer@subsectionintoc {3}{4}{O Modelo dos Algoritmos Distribu\IeC {\'\i }dos}{13}{0}{3}
+\beamer@sectionintoc {4}{Simula\IeC {\c c}\IeC {\~o}es}{18}{0}{4}
+\beamer@sectionintoc {5}{Considera\IeC {\c c}\IeC {\~o}es Finais}{25}{0}{5}
