@@ -66,12 +66,12 @@ Laboratório Nacional de Computação Científica - LNCC}  % opcional
 \begin{frame}
 	\section{Introdução}
 	\subsection{}
-	\frametitle{Objetivo e Motivação}
+	\frametitle{Motivação e Objetivo}
 
 \begin{itemize}
-	\item Este trabalho consiste no estudo e simulação de sistemas sujeitos a saltos markovianos.
-	\vspace{0.5cm}	
 	\item A motivação para os estudos no tema parte dos problemas relacionados a simulação do algoritmo \textit{PageRank}.
+	\vspace{0.5cm}	
+	\item O trabalho consiste no estudo e simulação de sistemas sujeitos a saltos markovianos.
 \end{itemize}		 
 
 \end{frame}
@@ -133,8 +133,8 @@ Ano & Buscador & Nº de Páginas Indexadas\\
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}
 	%\section{O Algoritmo PageRank}
-	%\subsection{O Problema do do PageRank}
-	\frametitle{O Problema do PageRank}
+	%\subsection{Os Desafios do PageRank}
+	\frametitle{Os Desafios do PageRank}
 	
 \begin{itemize}
 	\item A massividade da \textit{Web} e a dificuldade do cálculo.
@@ -342,7 +342,7 @@ $x^* = \begin{pmatrix}
 	%\subsection{O Modelo dos Algoritmos Distribuídos}
 	\frametitle{O Modelo dos Algoritmos Distribuídos}
 
-\begin{equation}
+\begin{equation}\nonumber
 A = \begin{pmatrix}
  0 & 1/2 & 0 & 1/2 \\
  0 &  0  & 0 & 1/2 \\
@@ -450,14 +450,6 @@ x(k+1) = (1 - \hat{m})A_{\theta(k)}x(k) + \frac{\hat{m}}{n}\textbf{1},
 
 \begin{equation}
 y(k) = \frac{1}{k+1} \sum_{l=0}^{k} x(l).
-\end{equation}
-
-\vspace{0.2cm}
-
-\item O algoritmo converge no sentido da m\'edia quadr\'atica: 
-%
-\begin{equation}
-\lim_{k\rightarrow \infty} \mathbb{E} [\parallel y(k)-x^* \parallel^2] = 0.
 \end{equation}	
 
 \vspace{0.2cm}
@@ -466,6 +458,14 @@ y(k) = \frac{1}{k+1} \sum_{l=0}^{k} x(l).
 
 \begin{equation}
 y(k+1) = \frac{(k+1)}{(k+2)}y(k) + \frac{1}{(k+2)}x(k+1).
+\end{equation}
+
+\vspace{0.2cm}
+
+\item O algoritmo converge no sentido da m\'edia quadr\'atica: 
+%
+\begin{equation}
+\lim_{k\rightarrow \infty} \mathbb{E} [\parallel y(k)-x^* \parallel^2] = 0.
 \end{equation}
 
 \end{itemize}	
