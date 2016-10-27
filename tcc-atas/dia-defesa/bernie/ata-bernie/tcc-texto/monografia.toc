@@ -1,0 +1,28 @@
+\select@language {brazil}
+\contentsline {chapter}{\numberline {1}Introdu\IeC {\c c}\IeC {\~a}o}{10}
+\contentsline {chapter}{\numberline {2}Sistemas Estoc\IeC {\'a}sticos}{12}
+\contentsline {section}{\numberline {2.1}A Equa\IeC {\c c}\IeC {\~a}o de Diferen\IeC {\c c}a}{12}
+\contentsline {section}{\numberline {2.2}Defini\IeC {\c c}\IeC {\~a}o e Propriedades de Matrizes Estoc\IeC {\'a}sticas}{12}
+\contentsline {section}{\numberline {2.3}Cadeias de Markov}{14}
+\contentsline {chapter}{\numberline {3}O Algoritmo \textit {PageRank}}{16}
+\contentsline {section}{\numberline {3.1}As Ferramentas de Busca}{18}
+\contentsline {section}{\numberline {3.2}O Problema do \textit {PageRank}}{18}
+\contentsline {chapter}{\numberline {4}Defini\IeC {\c c}\IeC {\~a}o dos Modelos}{21}
+\contentsline {section}{\numberline {4.1}A Matriz \textit {Hyperlink}}{21}
+\contentsline {section}{\numberline {4.2}O \textit {Power Method}}{23}
+\contentsline {subsection}{\numberline {4.2.1}Quest\IeC {\~o}es de Converg\IeC {\^e}ncia do \textit {Power Method}}{23}
+\contentsline {section}{\numberline {4.3}O \textit {Teleportation Model}}{24}
+\contentsline {section}{\numberline {4.4}O Modelo dos Algoritmos Distribu\'idos}{24}
+\contentsline {subsection}{\numberline {4.4.1}Quest\IeC {\~o}es de Converg\IeC {\^e}ncia do Modelo Distribu\IeC {\'\i }do}{26}
+\contentsline {chapter}{\numberline {5}Simula\IeC {\c c}\IeC {\~o}es}{27}
+\contentsline {section}{\numberline {5.1}Simula\IeC {\c c}\IeC {\~a}o do \textit {Power Method}}{28}
+\contentsline {section}{\numberline {5.2}Simula\IeC {\c c}\IeC {\~a}o do \textit {Teleportation Model}}{29}
+\contentsline {section}{\numberline {5.3}Simula\IeC {\c c}\IeC {\~o}es do Modelo Distribu\IeC {\'\i }do}{30}
+\contentsline {subsection}{\numberline {5.3.1}Simula\IeC {\c c}\IeC {\~a}o do \textit {Teleportation Model} Distribu\IeC {\'\i }do}{30}
+\contentsline {subsection}{\numberline {5.3.2}O Modelo Recursivo da M\IeC {\'e}dia no Tempo Aplicada a Simula\IeC {\c c}\IeC {\~a}o do Modelo Distribu\IeC {\'\i }do}{31}
+\contentsline {section}{\numberline {5.4}M\IeC {\'e}todo de \textit {Monte Carlo} Aplicado ap\IeC {\'o}s Modelo Recursivo da M\IeC {\'e}dia}{32}
+\contentsline {chapter}{\numberline {6}Considera\IeC {\c c}\IeC {\~o}es Finais}{34}
+\contentsline {chapter}{Ap\IeC {\^e}ndices}{36}
+\contentsline {section}{Ap\IeC {\^e}ndice A - Dedu\IeC {\c c}\IeC {\~a}o do Modelo Recursivo da M\IeC {\'e}dia no Tempo}{36}
+\contentsline {section}{Ap\IeC {\^e}ndice B - C\IeC {\'o}digo em Linguagem MATLAB Usado nas Simula\IeC {\c c}\IeC {\~o}es}{37}
+\contentsline {chapter}{Refer\^encias}{42}

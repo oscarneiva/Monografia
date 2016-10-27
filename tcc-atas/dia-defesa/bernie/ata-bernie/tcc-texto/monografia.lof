@@ -1,0 +1,19 @@
+\select@language {brazil}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Ilustra\IeC {\c c}\IeC {\~a}o de uma simples cadeia de Markov.}}{14}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Lawrence Page e Sergey Brin criadores do \textit {PageRank} e fundadores do Google.}}{16}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Barra de pesquisa do Google.}}{17}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces O buraco negro da \textit {Web}.}}{19}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Navega\IeC {\c c}\IeC {\~a}o entre p\IeC {\'a}ginas indiretamente conectadas.}}{19}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Cluster do Google.}}{20}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Grafo representando \textit {links} entre p\IeC {\'a}ginas \textit {Web}.}}{21}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Grafo usado nas simula\IeC {\c c}\IeC {\~o}es.}}{27}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Resultado das simula\IeC {\c c}\IeC {\~o}es do \textit {Power Method}.}}{28}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Resultado das simula\IeC {\c c}\IeC {\~o}es do \textit {Teleportation Model}.}}{29}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Compara\IeC {\c c}\IeC {\~a}o entre o \textit {Power Method} e o \textit {Teleportation Model}.}}{29}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Resultado das simula\IeC {\c c}\IeC {\~o}es do modelo distribu\IeC {\'\i }do.}}{30}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Abstra\IeC {\c c}\IeC {\~a}o dos \textit {links} das p\IeC {\'a}ginas 2, 3 e 4 a partir da matriz $A_1$.}}{31}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Resultado das simula\IeC {\c c}\IeC {\~o}es do modelo distribu\IeC {\'\i }do com a m\IeC {\'e}dia no tempo.}}{31}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Compara\IeC {\c c}\IeC {\~a}o entre o \textit {Power Method} e a m\IeC {\'e}dia no tempo do modelo distribu\IeC {\'\i }do.}}{32}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Resultado das simula\IeC {\c c}\IeC {\~o}es com o m\IeC {\'e}todo de Monte Carlo.}}{32}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Compara\IeC {\c c}\IeC {\~a}o entre a m\IeC {\'e}dia no tempo do modelo distribu\IeC {\'\i }do e o m\IeC {\'e}todo de Monte Carlo.}}{33}
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Compara\IeC {\c c}\IeC {\~a}o entre os resultados do \textit {Power Method} e os obtidos com o m\IeC {\'e}todo de Monte Carlo.}}{33}

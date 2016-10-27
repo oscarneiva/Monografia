@@ -1,0 +1,45 @@
+%%%%%%%%%%%%%%%%%%%%%
+\chapter*{Apêndices}%
+%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section*{Apêndice A - Dedução do Modelo Recursivo da Média no Tempo}\label{apendiceA}%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Partindo-se da equação da média no tempo \eqref{y}, e fazendo-se um avanço de uma iteração no vetor da média, tem-se:
+
+\begin{equation}\nonumber
+y(k) = \frac{1}{k+1} \sum^{k}_{l=0} x(l)
+\end{equation}
+
+\begin{equation}\nonumber
+y(k+1) = \frac{1}{k+2} \sum^{k+1}_{l=0} x(l)
+\end{equation}
+
+\begin{equation}\nonumber
+y(k+1) = \frac{1}{k+2} [x(0) + x(1) + ... + x(k) + x(k+1)]
+\end{equation}
+
+\begin{equation}\nonumber
+y(k+1) = \frac{1}{k+2} \sum^{k}_{l=0} x(l) + \frac{1}{k+2} x(k+1)
+\end{equation}
+
+\begin{equation}\nonumber
+y(k+1) = \frac{1}{k+2} (k+1)y(k) + \frac{1}{k+2} x(k+1)
+\end{equation}\\
+
+Por fim, o método recursivo da média no tempo é dado pela seguinte equação:
+
+\begin{equation}\nonumber
+y(k+1) = \frac{k+1}{k+2} y(k) + \frac{1}{k+2} x(k+1)
+\end{equation}\\
+
+Esta equação segue o mesmo formato da apresentada em \eqref{yr}.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section*{Apêndice B - Código em Linguagem MATLAB Usado nas Simulações}\label{apendiceB}%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\lstinputlisting{apendice/pagerank.m}
