@@ -2,7 +2,7 @@
 \chapter{Definição dos Modelos}%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-O cálculo do \textit{PageRank} possui desde um modelo mais simples, até outras adaptações deste modelo devido aos problemas descritos na seção anterior. A estimação do \textit{PageRank} é feita por uma equação de diferença, a qual possui uma matriz de transição do tipo estocástica. Na primeira seção deste capítulo é demostrada a construção dessa matriz. Na sequência são apresentados o \textit{Power Method}, modelo mais simples do cálculo do \textit{PageRank}, o \textit{Teleportation Model}, modelo que trata da navegação descontínua e o modelo por trás dos algoritmos distribuídos.   
+O cálculo do \textit{PageRank} possui desde um modelo mais simples, até outras adaptações deste modelo devido aos problemas descritos no capítulo anterior. A estimação do \textit{PageRank} é feita por uma equação de diferença, a qual possui uma matriz de transição do tipo estocástica. Na primeira seção deste capítulo é demostrada a construção dessa matriz. Na sequência são apresentados o \textit{Power Method}, modelo mais simples do cálculo do \textit{PageRank}, o \textit{Teleportation Model}, modelo que trata da navegação descontínua e o modelo por trás dos algoritmos distribuídos.   
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -70,7 +70,7 @@ Sendo assim, o grafo, ou o conjunto de páginas, trata-se de uma cadeia de Marko
 \section{O \textit{Power Method}}%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-Este é o modelo mais simples para a estimação do \textit{PageRank}. Esta abordagem constitui-se de uma equação de diferença, a qual possui uma matriz de transição coluna estocástica e um vetor estocástico. O vetor estocástico é formado pelos valores das variáveis aleatórias da cadeia de Markov, ou seja os valores das páginas. O valor de \textit{PageRank} de um conjunto de $n$ páginas da \textit{Web} é definido como o vetor $x \in \mathbb{R}^{n \times 1}$ que satisfaz as seguintes equações:
+Este é o modelo mais simples para a estimação do \textit{PageRank}. Esta abordagem constitui-se de uma equação de diferença, a qual possui uma matriz de transição coluna estocástica e um vetor estocástico. O vetor estocástico é formado pelos valores das variáveis aleatórias da cadeia de Markov, ou seja, os valores das páginas. O valor de \textit{PageRank} de um conjunto de $n$ páginas da \textit{Web} é definido como o vetor $x \in \mathbb{R}^{n \times 1}$ que satisfaz as seguintes equações:
 
 \begin{equation}	
 x = Ax, \quad x\geq0, \quad \sum^{n}_{i=1} x_{i} = 1, 
@@ -95,7 +95,7 @@ Após um número considerável de iterações e em um número considerável de c
 
 Isso ocorre devido a matriz de transição ser irredutível, o que reflete no navegador aleatório sempre conseguir chegar a uma certa página partindo de uma outra qualquer, mesmo que essas duas páginas não estejam diretamente conectadas. Observando o grafo da figura \ref{grafo}, pode-se observar que não existe um \textit{link} direto entre $1$ e $3$, para chegar-se em $3$ a partir de $1$ o usuário teria de ir de $1$ para $4$, de $4$ para $2$ e de $2$ para $3$.
 
-No caso de uma página apenas possuir \textit{links} de entrada, como por exemplo, ao acessar-se um documento PDF, o problema é contornado ao admitir-se que o usuário poderia usar o botão de volta do \textit{Browser}, criando um \textit{link} de saída da página. Assim, a matriz mantem-se irredutível, garantindo que para a maioria das condições iniciais os valores de \textit{PageRank} sejam os mesmos ao atingir-se a distribuição limite. No entanto, existem alguns casos em que não há garantia de convergência, e por tanto o modelo do \textit{Power Method} tem de sofrer algumas alterações. 
+No caso de uma página apenas possuir \textit{links} de entrada, como por exemplo, ao acessar-se um documento PDF, o problema é contornado ao admitir-se que o usuário poderia usar o botão de voltar do \textit{Browser}, criando um \textit{link} de saída da página. Assim, a matriz mantem-se irredutível, garantindo que para a maioria das condições iniciais os valores de \textit{PageRank} sejam os mesmos ao atingir-se a distribuição limite. No entanto, existem alguns casos em que não há garantia de convergência, e por tanto o modelo do \textit{Power Method} tem de sofrer algumas alterações. 
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -127,8 +127,8 @@ Em que a matriz de transição $A$ agora passa a ser várias matrizes \textit{li
 
 \begin{itemize}
 \item a i-ésima coluna de $A_i$ coincide com a i-ésima coluna de $A$,
-\item a j-ésima entrada diagonal de $A_i$ é igual a um,
-\item para $j = 1, ..., n, \: j \neq i$, todas as outras entradas $a_{ij}$ são iguais a zero.
+\item a j-ésima entrada diagonal de $A_i$ é igual a um para $j = 1, ..., n, \: j \neq i$,
+\item todas as outras entradas $a_{ij}$ são iguais a zero.
 \end{itemize}
 
 A ideia agora é de que cada página fará o seu cálculo de \textit{PageRank}, por isso são criadas as matrizes  distribuídas. Com relação a construção das matrizes, pode-se observar que elas seguem a seguinte ideia. As colunas das matrizes são formadas pelas relações de saída de cada um dos nós, ao mesmo tempo que cada matriz \textit{link} distribuída está associada a um nó do grafo da figura \ref{grafo}. Assim a coluna $1$ de $A$ \eqref{A} é copiada para a primeira coluna de $A_1$ \eqref{A12}, o restante da diagonal pricipal é preenchida com 1's e o restante dos elementos é zero. O mesmo se repete para as outras matrizes distribuídas.
@@ -174,7 +174,7 @@ A_4 = \begin{pmatrix}
 Acoplando agora o modelo das matrizes distribuídas ao modelo do \textit{Teleportation} tem-se \eqref{Ax},
 
 \begin{equation} \label{Ax}
-x(k+1) = (1 - \hat{m})A_{\theta(k)}x(k) + \frac{\hat{m}}{N} \textbf{11}^T, \quad k \geq 0, \quad \text{com} \quad x(0) = x_0,
+x(k+1) = (1 - \hat{m})A_{\theta(k)}x(k) + \frac{\hat{m}}{n} \textbf{1}, \quad k \geq 0, \quad \text{com} \quad x(0) = x_0,
 \end{equation}
 
 \noindent onde $\hat{m}$ é definido como: 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.11.24)  24 OCT 2016 11:50
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.11.24)  1 NOV 2016 12:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -835,11 +835,7 @@ File: listings.cfg 2013/08/26 1.5b listings configuration
 Package: listings 2013/08/26 1.5b (Carsten Heinz)
 )
 (./monografia.aux (./capitulo1.aux) (./capitulo2.aux) (./capitulo3.aux)
-(./capitulo4.aux
-
-LaTeX Warning: Label `A' multiply defined.
-
-) (./capitulo5.aux) (./capitulo6.aux) (./apendice.aux))
+(./capitulo4.aux) (./capitulo5.aux) (./capitulo6.aux) (./apendice.aux))
 \openout1 = `monografia.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 62.
@@ -1433,33 +1429,29 @@ File: ts1pcr.fd 2001/06/04 font definitions for TS1/pcr.
 |                  http://abntex.codigolivre.org.br                 |
 +-------------------------------------------------------------------+
 [43] (./monografia.aux (./capitulo1.aux) (./capitulo2.aux) (./capitulo3.aux)
-(./capitulo4.aux) (./capitulo5.aux) (./capitulo6.aux) (./apendice.aux))
-
-LaTeX Warning: There were multiply-defined labels.
-
- ) 
+(./capitulo4.aux) (./capitulo5.aux) (./capitulo6.aux) (./apendice.aux)) ) 
 Here is how much of TeX's memory you used:
- 7697 strings out of 493304
- 99488 string characters out of 6139870
- 265514 words of memory out of 5000000
- 10820 multiletter control sequences out of 15000+600000
+ 7698 strings out of 493304
+ 99492 string characters out of 6139870
+ 265486 words of memory out of 5000000
+ 10821 multiletter control sequences out of 15000+600000
  109725 words of font info for 168 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  38i,11n,43p,895b,1748s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/symbols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/u
-rw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/uc
-rr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/s
-hare/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/time
-s/utmri8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/zapfchan/uzcmi8a.p
-fb>
-Output written on monografia.pdf (44 pages, 2643664 bytes).
+{/usr/
+share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
+msfonts/symbols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/couri
+er/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/u
+rw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8
+a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/zapfchan/uzcmi8a.pfb>
+Output written on monografia.pdf (44 pages, 2643704 bytes).
 PDF statistics:
  247 PDF objects out of 1000 (max. 8388607)
  161 compressed objects within 2 object streams
